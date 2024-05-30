@@ -22,12 +22,12 @@ export default function Login() {
 		<>
 			<div className="container">
 				<div className="wrapper d-flex align-items-center justify-content-center h-100">
-					<div className="card login-form mt-5 pt-5">
+					<div className="card login-form mt-5 pt-5 shadow border-0">
 						<div className="card-body">
 							<div className="text-center mb-4">
 								<Logo />
 							</div>
-							<h5 className="card-title text-center">Login Form</h5>
+							<h4 className="card-title text-center">Login</h4>
 							<form onSubmit={handleSubmit}>
 								<div className="mb-3">
 									<label
